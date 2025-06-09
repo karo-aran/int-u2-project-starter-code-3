@@ -1,6 +1,81 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
-    color: white;
-    padding: 128px 16px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, serif;
+    font: 42px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(45, 32, 161);
+    padding: 12px 14px;
+}
+
+body {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    color: rgb(45, 32, 161);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p {
+    text-indent: 2%;
+}
+
+h2, h3 {
+    font-family: georgia, serif;
+}
+
+.s3-title{
+    font: 38 px;
+}
+
+.seaotter {
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+    height: auto;   
+}
+
+.coralpic {
+    width: 100%;
+    z-index: 0;
+}
+
+.helpful {
+    margin-top: 30px;
+    text-indent: 0%;
+}
+
+.ucs {
+    font-size: 30px;
+    font: 20px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(29, 29, 70);
+    background-color: rgb(197, 220, 255);
+    border: 3.5px solid rgb(29, 29, 70);
+    border-radius: 5px;
+
+    transition: all 0.3s;
+}
+
+.ucs:hover {
+    transform: translateY(-8px)
+}
+
+.oap {
+    font-size: 30px;
+    font: 20px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(45, 80, 52);
+    background-color: rgb(170, 221, 179);
+    border: 3.5px solid rgb(45, 80, 52);
+    border-radius: 5px;
+
+    transition: all 0.3s;
+}
+
+.oap:hover {
+    transform: translateY(-8px)
 }
